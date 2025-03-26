@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Makeup Business</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <h1>LOVETH BEAUTY EMPIRY</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="home">
+        <div class="home-content">
+            <h1>Flawless Beauty, Just for You 💄✨</h1>
+            <p>Enhancing your natural beauty with professional makeup artistry.</p>
+            <a href="#services" class="btn">View Services</a>
+        </div>
+    </section>
+        <section id="gallery">
+            <h2>My Project</h2>
+            <div class="gallery-container">
+                <img src="./IMAGE1.jpg" alt="Makeup 1">
+                <img src="./IMAGE2.jpg" alt="Makeup 2">
+                <img src="./IMAGE3.jpg" alt="Makeup 3">
+                <img src="./IMAGE4.jpg" alt="Makeup 4">
+                <img src="./IMAGE5.jpg" alt="Makeup 5">
+                <img src="./IMAGE6.jpg" alt="Makeup 6">
+                <img src="./IMAGE7.jpg" alt="Makeup 7">
+                <img src="./IMAGE8.jpg" alt="Makeup 8">
+                <img src="./IMAGE9.jpg" alt="Makeup 9">
+                <img src="./IMAGE10.jpg" alt="Makeup 10">
+                <img src="./IMAGE11.jpg" alt="Makeup 11">
+                <img src="./IMAGE12.jpg" alt="Makeup 12">
+            </div>
+        </section>
+        <section id="contact">
+            <h2>Contact us</h2>
+            <p>Have a question or want to book a makeup session? Send me a message!</p>
+            
+            <form id="contact-form" action="https://formsubmit.co/jostam54@gmail.com" method="POST">
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_template" value="table">
+            
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+            
+                <button type="submit">Send Message</button>
+            </form>
+        
+            <p id="form-message" style="display: none; color: green;"></p>
+        </section>
+        <section id="about" class="about-me fade-in">
+            <h2>About Me</h2>
+            <p>Hi! I'm OPOOLA IFEOLUWA, a passionate makeup artist dedicated to enhancing beauty with flawless makeup looks. Whether it's for a wedding, photoshoot, or special occasion, I love making my clients feel confident and stunning. 💄✨</p>
+              <!-- Company Logo -->
+    <img src="./loveth logo.jpg" alt="My Makeup Business Logo" class="logo">
+</section>
+<section id="services" class="services fade-in">
+    <h2>My Services</h2>
+    <div class="service-container">
+        <div class="service-card">
+            <img src="./IMAGE2.jpg" alt="Bridal Makeup">
+            <h3>Bridal Makeup</h3>
+            <p>Get a flawless, long-lasting bridal look for your big day! 👰💖</p>
+        </div>
+        <div class="service-card">
+            <img src="./IMAGE11.jpg" alt="Party Makeup">
+            <h3>Party & Event Makeup</h3>
+            <p>Glamorous looks perfect for birthdays, events & special occasions. 🎉✨</p>
+        </div>
+        <div class="service-card">
+            <img src="./IMAGE1.jpg" alt="Photoshoot Makeup">
+            <h3>Photoshoot Makeup</h3>
+            <p>Look picture-perfect for professional photoshoots & modeling. 📸💄</p>
+        </div>
+    </div>
+</section>
+
+        </section>
+        
+        
+    </main>
+
+    <footer>
+    <p>&copy; loveth beauty empire. All rights reserved.</p>
+</footer>
+
+    <script src="./script.js"></script>
+</body>
+</html>
